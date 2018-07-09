@@ -1,4 +1,7 @@
 package com.hr.headhuntersfee.repository;
 
-public class HeadHunterRepository {
+import com.hr.headhuntersfee.entities.HeadHunter;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface HeadHunterRepository extends JpaRepository<HeadHunter, Long> {
 }

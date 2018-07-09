@@ -2,11 +2,9 @@ package com.hr.headhuntersfee.entities;
 
 import com.hr.headhuntersfee.entities.common.Auditable;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
 public class HeadHunter extends Auditable<Long> {
 
     @Id
